@@ -90,7 +90,7 @@ class ChooseYourCat {
       data.append('wins',winnerData.record.wins);
       data.append('loser',loserData.id);
       data.append('losses',loserData.record.losses);
-      fetch('controller/db/ScoreUpdate.php', {
+      fetch('scoreupdate.php', {
           method: 'POST',
           body: data
       });

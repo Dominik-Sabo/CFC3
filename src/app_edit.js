@@ -30,7 +30,7 @@ class FighterEdit
              * @type {FormData}
              */
             const data = new FormData(this);
-            fetch('controller/db/Edit.php', {
+            fetch('edit.php', {
                 method: 'post',
                 body: data
             })

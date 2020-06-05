@@ -23,7 +23,7 @@ class FighterAppend
              * @type {FormData}
              */
             const data = new FormData(this);
-            fetch('controller/db/Insert.php', {
+            fetch('insert.php', {
                 method: 'post',
                 body: data
             })
