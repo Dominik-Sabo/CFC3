@@ -86,7 +86,7 @@
         </div>
 
         <?php
-        require "./controller/DbHandler.php";
+        require "./DbHandler.php";
         use Db\DbHandler;
         $db=new DbHandler();
 
