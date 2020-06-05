@@ -2,4 +2,4 @@ Razlog zašto su sve datoteke koje koriste db controller i sam db controller sve
 mi iz nekog razloga Heroku nije mogao pročitati URL-ove koji se nalaze u podfolderima. Nadam se da to nije problem.
 Inače je controller folder kako bi trebao biti te mi je s njime aplikacija na localhostu radila.
 
-Također, ispričavam se na nazivima commitova, bio sam malo frustriran.
+Također, ispričavam se na nazivima commitova, nisam mogao drukčije testirati aplikaciju na Heroku i bio sam malo frustriran.
