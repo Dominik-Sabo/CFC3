@@ -22,7 +22,7 @@ if($_POST['deleting']=="delete"){
     $db->update("UPDATE fighters SET losses='$losses' WHERE id=$id");
     
     if(!($_FILES['uploadFile']['name'] == "")){
-        $saveLocation="../../images/";
+        $saveLocation="images/";
         $saveLocationShort="images/";
         $saveLocation=$saveLocation.basename($_FILES['uploadFile']['name']);
         $saveLocationShort=$saveLocationShort.$_FILES['uploadFile']['name'];
