@@ -9,7 +9,7 @@ $catInfo = $_POST['catInfo'];
 $wins = $_POST['wins'];
 $losses = $_POST['losses'];
 
-$saveLocation="../../images/";
+$saveLocation="images/";
 $saveLocationShort="images/";
 
 $saveLocation=$saveLocation.basename($_FILES['uploadFile']['name']);
